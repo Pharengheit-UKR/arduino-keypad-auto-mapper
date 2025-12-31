@@ -72,3 +72,5 @@ byte rowPins[ROWS] = {5, 4, 3, 2};
 byte colPins[COLS] = {9, 8, 7, 6};
 ```
 6. Copy these arrays into your project using the Keypad library.
+
+)
