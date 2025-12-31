@@ -44,3 +44,34 @@ This sketch solves the problem **once and for all**.
 
 Keypad lines connected to:
 D2, D3, D4, D5, D6, D7, D8, D9
+
+
+You can change this easily in the source code.
+
+---
+
+## How to use
+
+1. Connect keypad lines to Arduino pins (order does not matter).
+2. Upload the sketch.
+3. Open Serial Monitor at **9600 baud**.
+4. Press keys in this exact order when prompted:
+
+1 2 3 A
+4 5 6 B
+7 8 9 C
+* 0 # D
+
+5. After the last key, the sketch prints ready-to-use arrays
+
+```
+byte rowPins[4] = {...};
+byte colPins[4] = {...};
+```
+```
+Example output
+=== RESULT ===
+byte rowPins[ROWS] = {5, 4, 3, 2};
+byte colPins[COLS] = {9, 8, 7, 6};
+```
+6. Copy these arrays into your project using the Keypad library.
