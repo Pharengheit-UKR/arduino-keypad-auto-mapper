@@ -57,10 +57,7 @@ You can change this easily in the source code.
 3. Open Serial Monitor at **9600 baud**.
 4. Press keys in this exact order when prompted:
 
-1 2 3 A
-4 5 6 B
-7 8 9 C
-* 0 # D
+1 2 3 A 4 5 6 B 7 8 9 C * 0 # D
 
 5. After the last key, the sketch prints ready-to-use arrays
 
